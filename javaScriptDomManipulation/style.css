@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+}
+
+#parent{
+  flex-direction: column;
+  gap: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#colorDiv{
+  border: solid 2px black;
+  height: 200px;
+  width: 600px;
+}

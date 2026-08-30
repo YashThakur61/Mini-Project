@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  background-color: bisque;
+}
+
+#parent{
+  flex-direction: column;
+  gap: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#colorDiv{
+  height: 200px;
+  width: 600px;
+}
+
+.list{
+  display: inline-block; /* Wraps the list neatly around your items */
+  text-align: left;     /* Keeps numbers right next to the text */
+  padding-left: 20px;
+}
