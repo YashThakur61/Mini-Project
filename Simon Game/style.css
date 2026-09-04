@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  background-color: bisque;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn{
+    border: 7px solid black;
+    border-radius: 25px;
+    height: 160px;
+    width: 160px;
+}
+
+.red{
+    background-color: rgba(225, 49, 49, 0.919);
+}
+
+.green{
+    background-color: rgb(12, 161, 32);
+}
+
+.yellow{
+    background-color: rgb(225, 225, 12);
+}
+
+.blue{
+    background-color: rgb(26, 49, 201);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: black;
+}
